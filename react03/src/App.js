@@ -10,6 +10,13 @@ import  MyState03 from './component/MyState03'; // 240807(1)
 import MyState02_3_teacher from  './component/MyState02_3_teacher' 
 import MyRef01 from './component/MyRef01'; // 240807(2)
 import MyRef02 from './component/MyRef02';
+import MyFinal_jy from './component/MyFinal_jy';
+import MyFinal from './component/MyFinal';
+import MyMap from './component/MyMap';
+import MyToDo from './component/MyToDo';
+import MyClass from './component/MyClass';
+import MyFinal_useEffect_jy from './component/MyFinal_useEffect_jy';
+import MyFinal_useEffect from './component/MyFinal_useEffect';
 
 function App() {
   return (
@@ -31,7 +38,25 @@ function App() {
       {/* <MyRef01></MyRef01> */}
 
       {/* 240807(3) */}
-      <MyRef02></MyRef02>
+      {/* <MyRef02></MyRef02> */}
+
+      {/* 240808(1) */}
+      {/* <MyFinal_jy></MyFinal_jy> */}
+      {/* 240808(3) */}
+      {/* <MyFinal></MyFinal> */}
+
+      {/* 240808(4) */}
+      {/* <MyMap></MyMap> */}
+
+      {/* 240809 */}
+      {/* <MyToDo></MyToDo> */}
+
+      {/* 240813(1) */}
+      {/* <MyClass></MyClass> */}
+
+      {/* 240813(2) */}
+      <MyFinal_useEffect></MyFinal_useEffect>
+
 
     </div>
   );
